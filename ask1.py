@@ -3,7 +3,7 @@ import random
 
    
 my_randoms=[]    
-for i in range (4):    
+for i in range (5):    
     my_randoms.append(random.randrange(1,5,1))
     if my_randoms[i]==1:
         posx=my_randoms[i]
@@ -17,7 +17,7 @@ for i in range (4):
   
 
 my_randoms2=[]
-for j in range (4):
+for j in range (5):
     my_randoms2.append(random.randrange(1,5,1))
     if my_randoms2[j]==1:
         posy=my_randoms2[j]
@@ -35,7 +35,7 @@ for j in range (4):
 
  
 my_randoms3=[]    
-for n in range (4):    
+for n in range (5):    
     my_randoms3.append(random.randrange(1,5,1))
     if my_randoms2[n]==1:
         posx2=my_randoms3[n]
@@ -49,7 +49,7 @@ for n in range (4):
   
 
 my_randoms4=[]
-for v in range (4):
+for v in range (5):
     my_randoms4.append(random.randrange(1,5,1))
     if my_randoms2[v]==1:
         posy2=my_randoms2[v]
